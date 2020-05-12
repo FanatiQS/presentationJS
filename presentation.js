@@ -11,7 +11,6 @@ Presentation.prototype.move = function (len) {
 
 Presentation.prototype.createKeyListeners = function(nextCode, prevCode) {
 	document.addEventListener('keydown', (event) => {
-		console.log(event);
 		if (event.keyCode === nextCode) {
 			this.move(1);
 		}
