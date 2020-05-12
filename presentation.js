@@ -6,7 +6,7 @@ function Presentation(slides) {
 
 Presentation.prototype.move = function (len) {
 	if ((this.index + len >= this.slides.length && len > 0) || (this.index + len < 0 && len < 0)) throw new Error("Moving outside slides range");
-	window.location = this.slides[this.index += len];
+	window.location.hash = this.slides[this.index += len];
 };
 
 Presentation.prototype.createKeyListeners = function(nextCode, prevCode) {
