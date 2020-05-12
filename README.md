@@ -1,7 +1,7 @@
 This is a simple project to use a web browser as a presentation software (like powerpoint/google slides/keynote).
 # Live  Demo
 You can interact with this repository here: https://fanatiqs.github.io/presentationJS
-If the remote window does not open, or opens empty. See if you need to allow a popup window and then reload the page.
+* If the remote window does not open, or opens empty. See if you need to allow a popup window and then reload the page.
 
 # Why?
 Why should you use something like this? If you want to have a presentation that shows off something that exists in a web environment, you can use all the normal web features in your slides. For example, if you need to access a website in your presentation, you can just implement it with an iframe. Or if you want to show off an interactive web framework, you do not need to move between your presentation and desktop since everything can be done in the presentation, the presentation is in a browser.
