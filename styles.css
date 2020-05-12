@@ -1,0 +1,38 @@
+/* Force 16:9 aspect ratio */
+html {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	background: black;
+}
+body {
+	position: relative;
+	width: 100%;
+	max-width: 178vh;
+	margin: 0;
+	background: white;
+}
+body:before {
+	content: '';
+	display: block;
+	padding-bottom: 56.25%;%;
+}
+
+/* Only display the targeted element */
+body > * {
+	display: none;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+}
+:target {
+	display: initial;
+}
+
+body > div  {
+	padding-top: 20%;
+	font-size: 10vmin; /* not looking the same when moving from black bars on the sides to on the top */
+	text-align: center;
+}

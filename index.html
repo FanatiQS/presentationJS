@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Presentation Demo</title>
+		<link rel="stylesheet" type="text/css" href="styles.css"></link>
+		<script src="presentation.js"></script>
+	</head>
+	<body>
+		<div id="A">This is my first slide</div>
+		<div id="B">This is the second one</div>
+		<div id="C">And the third...</div>
+		<div id="D">...forth...</div>
+		<div id="E">...the fifth</div>
+		<div id="F">And the second to last, the sixth</div>
+		<div id="G">And at last, the final one, the seventh</div>
+
+		<script>
+			const presentation = new Presentation(['#A', '#B', '#C', '#D', '#E', '#F', '#G']);
+			presentation.createKeyListeners(39, 37);
+			presentation.createRemote();
+		</script>
+	</body>
+</html>
