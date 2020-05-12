@@ -1,4 +1,6 @@
 This is a simple project to use a web browser as a presentation software (like powerpoint/google slides/keynote).
+# DEMO
+You can interact with this repository here: https://fanatiqs.github.io/presentationJS
 
 # Why?
 Why should you use something like this? If you want to have a presentation that shows off something that exists in a web environment, you can use all the normal web features in your slides. For example, if you need to access a website in your presentation, you can just implement it with an iframe. Or if you want to show off an interactive web framework, you do not need to move between your presentation and desktop since everything can be done in the presentation, the presentation is in a browser.
@@ -27,4 +29,4 @@ This one creates a small separate window that has two buttons, `next` and `back`
 If you want to roll your custom traversal system, you just use the `move(n)` method where `n` would be now many slides you want to move. `1` would be the `next` slide and `-1` would be the previous one. Look at how `createKeyListener` works for more detail.
 
 # Example
-The index.html file in this repository is a simple example of what you it can be used.
+The index.html file in this repository is a simple example of what you can do. You can interact with it here:  https://fanatiqs.github.io/presentationJS 
