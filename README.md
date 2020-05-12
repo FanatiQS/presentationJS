@@ -1,5 +1,5 @@
 This is a simple project to use a web browser as a presentation software (like powerpoint/google slides/keynote).
-# DEMO
+# Live  Demo
 You can interact with this repository here: https://fanatiqs.github.io/presentationJS
 
 # Why?
